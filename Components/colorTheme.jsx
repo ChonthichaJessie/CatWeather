@@ -1,0 +1,9 @@
+export const clearSky = '#D3EBFA';
+export const fewClouds = '#BBBBD5';
+export const scatteredClouds = '#84B1CB';
+export const brokenClouds = '#99AEBB';
+export const showerRain = '#BBD5D5';
+export const rain = '#99AEBB';
+export const thunderstorm = '#364954';
+export const snow = '#B1F5FF';
+export const mist = '#F2B6C4';
