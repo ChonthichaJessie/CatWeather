@@ -70,14 +70,14 @@ const TempNumber = styled.Text`
   font-size: 64px;
   font-style: normal;
   font-weight: 600;
-  color: #ffffff;
+  color: #474747;;
 `;
 const DegreeC = styled.Text`
   font-family: 'Roboto-Regular';
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  color: #ffffff;
+  color: #474747;
 `;
 
 const CityName = styled.Text`
@@ -86,7 +86,7 @@ const CityName = styled.Text`
   font-weight: 600;
   font-size: 24px;
   line-height: 28px;
-  color: #ffffff;
+  color: #474747;
 `;
 
 const Right = styled.View`
@@ -100,7 +100,7 @@ const WeatherDesc = styled.Text`
   font-weight: 400;
   font-size: 30px;
   line-height: 35px;
-  color: #ffffff;
+  color: #474747;
   padding-bottom: 10px;
 `;
 const Kitten = styled.Image`
