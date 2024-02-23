@@ -16,10 +16,10 @@ const descriptions = {
   clearSky: 'Clear sky',
 };
 
-const CityCard = ({city, onTrash}) => {
+const CityCard = ({city, onTrash, onChoose}) => {
   const {id, temperature, cityName, weatherCategory} = city;
   return (
-    <Wrapper>
+    <Wrapper onPress={() => onChoose(city)}>
       <Left>
         <Temperature>
           <TempNumber>{temperature}</TempNumber>
@@ -46,7 +46,7 @@ const TrashWrapper = styled.TouchableOpacity`
   right: 0;
 `;
 
-const Wrapper = styled.View`
+const Wrapper = styled.TouchableOpacity`
   padding-top: 28px;
   padding-horizontal: 16px;
   padding-bottom: 16px;

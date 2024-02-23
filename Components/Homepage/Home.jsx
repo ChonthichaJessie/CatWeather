@@ -15,7 +15,7 @@ import {ScrollView, Text} from 'react-native';
 import CityCard from './CityCard';
 import {useCallback, useEffect, useMemo, useState} from 'react';
 
-const Home = () => {
+const Home = ({setCity}) => {
   const [cities, setCities] = useState([
     {
       id: 1,
@@ -47,7 +47,7 @@ const Home = () => {
         {cities.map(city => (
           <CityCardWrapper key={city.id}>
             <SideIndent>
-              <CityCard city={city} onTrash={onTrash} />
+              <CityCard city={city} onChoose={setCity} onTrash={onTrash} />
             </SideIndent>
           </CityCardWrapper>
         ))}
